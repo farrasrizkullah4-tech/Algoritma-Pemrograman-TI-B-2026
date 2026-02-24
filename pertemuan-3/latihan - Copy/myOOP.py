@@ -43,7 +43,7 @@ class Mahasiswa:
     def __init__(self, nama, nilai):
         self.nama = nama
         self.__nilai = nilai
-        
+
     def set_nilai(self, nilai):
         self.__nilai = nilai
 
